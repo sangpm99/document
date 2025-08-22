@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Next Introduction
+# Giới Thiệu
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
