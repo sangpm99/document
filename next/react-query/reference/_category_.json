@@ -1,8 +1,8 @@
 {
-  "label": "Build Project",
+  "label": "API",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Build Project"
+    "description": "API"
   }
 }

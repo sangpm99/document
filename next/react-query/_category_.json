@@ -2,7 +2,6 @@
   "label": "React Query",
   "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "React Query"
+    "slug": "/react-query"
   }
 }

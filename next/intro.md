@@ -1,47 +1,20 @@
 ---
 sidebar_position: 1
+slug: /intro
 ---
 
 # Giới Thiệu
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Next.js là một **framework** xây dựng trên **React**. Nó cung cấp thêm các tính năng mà
+React thuần không có sẵn, như:
 
-## Getting Started
+- **SSR (Server-Side Rendering)**: render trang trên server trước khi gửi về client.
+- **SSG (Static Site Generation)**: build ra HTML tĩnh ngay từ lúc build-time.
+- **ISR (Incremental Static Regeneration)**: kết hợp tĩnh và động, cho phép cập nhật
+  nội dung theo thời gian.
+- **Routing**: có sẵn hệ thống router dựa trên cấu trúc thư mục `pages/` hoặc `app/`.
+- **API routes**: viết API backend ngay trong dự án Next.js.
+- **Tối ưu hiệu suất**: preload link, tối ưu hình ảnh (`next/image`), tối ưu SEO.
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Hiểu đơn giản: **React chỉ là UI library**, còn **Next.js là framework hoàn chỉnh**
+giúp bạn làm web/app production-ready nhanh hơn.

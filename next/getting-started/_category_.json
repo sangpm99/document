@@ -1,8 +1,7 @@
 {
-  "label": "Getting Started",
+  "label": "Bắt đầu",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "Getting Started"
+    "slug": "/getting-started"
   }
 }

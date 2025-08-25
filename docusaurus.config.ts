@@ -95,12 +95,12 @@ const config: Config = {
           label: "Front End",
           position: "left",
           items: [
-            {
-              type: "docSidebar",
-              sidebarId: "tutorialSidebar",
-              label: "Tutorial",
-              docsPluginId: "default",
-            },
+            // {
+            //   type: "docSidebar",
+            //   sidebarId: "tutorialSidebar",
+            //   label: "Tutorial",
+            //   docsPluginId: "default",
+            // },
             {
               type: "docSidebar",
               sidebarId: "nextSidebar",
@@ -109,7 +109,7 @@ const config: Config = {
             },
           ],
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
       ],
     },
     footer: {
