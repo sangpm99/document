@@ -4,5 +4,19 @@ title: Network Mode
 sidebar_position: 5
 ---
 
-TanStack Query có 3 chế độ networkMode để xác định cách Queries và Mutations hoạt động
-khi mất kết nối mạng. Có thể cấu hình cho từng Query/Mutation hoặc đặt mặc định toàn cục.
+# Network Mode
+
+React Query cung cấp 3 chế độ network để quyết định cách **Query** và **Mutation** hoạt động
+khi không có kết nối mạng.
+
+Mặc định là `online`.
+
+## Network Mode: online
+
+- Không fetch nếu mất mạng.
+- Giữ nguyên `state` hiện tại (`pending`, `error`, `success`).
+- Có thêm `fetchStatus`:
+  - `fetching`: đang request.
+  - `pause`: bị tạm dừng do mất mạng.
+  - `idle`: không fetch và không pause.
+- Khi online lại, query tiếp tục từ chỗ dừng (không phải refetch).
